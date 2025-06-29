@@ -47,10 +47,11 @@ To set up this project, feel free to **fork** and **clone** the container-reposi
 Before you do anything:
 
 * Start the server by writing the following in your terminal:
-...
+
+code:
 
     json-server --watch db.json
-...
+
 
 You can as well [go live](https://joseph-hansel.github.io/code-challenge-3/) after running the code above in your terminal.
 
