@@ -47,8 +47,10 @@ To set up this project, feel free to **fork** and **clone** the container-reposi
 Before you do anything:
 
 * Start the server by writing the following in your terminal:
+...
 
     json-server --watch db.json
+...
 
 You can as well [go live](https://joseph-hansel.github.io/code-challenge-3/) after running the code above in your terminal.
 
@@ -57,6 +59,10 @@ You can as well [go live](https://joseph-hansel.github.io/code-challenge-3/) aft
 > If you have not installed JSON Server, run the following code in your terminal (before starting the server with the above code.)
 
     npm install json-server
+
+>If you want to install JSON Server in all folders within your device, use the following code.
+
+    npm install -g json-server
 
 
 ## Contributers.
