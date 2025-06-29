@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+
+
+<head>
+
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <script defer src="./src/index.js"></script>
+
+    <title>BLOGE</title>
+
+
+</head>
+
+<body>
+
+
+    <header>
+
+
+        <h1>BLOGE</h1>
+
+
+    </header>
+
+    <section id="top">
+
+
+        <p>Explore the world via different perspectives.</p>
+
+
+    </section>
+
+    <div id="main">
+
+
+        <div id="create-post">
+
+
+            <!-- <button>Search</button> -->
+
+            <form id="new-post-form" class="posts">
+
+
+                <div class="form-inputs">
+
+
+                    <label>Title:</label>
+                    <input type="text" name="title">
+
+
+                </div>
+
+                <div class="form-inputs">
+
+
+                    <label>Category:</label>
+                    <input type="text" name="category">
+
+
+                </div>
+
+                <div class="form-inputs">
+
+
+                    <label>Author:</label>
+                    <input type="text" name="author">
+
+
+                </div>
+
+                <div class="form-inputs">
+
+
+                    <label>Image url:</label>
+                    <input type="url" name="url">
+
+
+                </div>
+
+                <label class="form-inputs">Content:</label>
+
+                <div class="form-inputs">
+
+
+                    <textarea name="content" id="content-area"></textarea>
+
+
+                </div>
+                
+                <button type="submit" class="form-inputs" id="submit-button">Add a New Blog Post</button>
+
+
+            </form>
+
+
+        </div>
+        
+        <div id="post-list" class="posts">
+
+
+            <h3>Available Posts:</h3>
+
+            <div></div>
+
+
+        </div>
+
+        <div class="posts" id="post">
+
+
+            <div class="post-titles">
+
+
+                <h2 id="post-title"></h2>
+
+
+            </div>
+
+            <div class="post-content">
+
+
+                <div class="post-images">
+
+
+                    <!-- <img src="" alt="image"> -->
+
+
+                </div>
+
+                <p id="content"></p>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <footer>
+
+
+        <p><a href="#top">Back to top.</a></p>
+
+
+    </footer>
+
+
+</body>
+
+
+</html>
