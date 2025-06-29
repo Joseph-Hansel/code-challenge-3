@@ -36,7 +36,7 @@ This project has been developed using:
  > CSS.
  > Javascript.
 
->[!MISCELLANEOUS]
+>[!NOTE]
  > Implementation of **JSON** in making the page interactive (json server) using **RESTful** API.
 
 
